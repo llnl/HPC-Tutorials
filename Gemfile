@@ -7,5 +7,7 @@ gem 'jekyll-seo-tag'
 gem 'jekyll-coffeescript'
 gem 'github-pages', group: :jekyll_plugins
 gem "jekyll-remote-theme"
+#gem "jekyll-llnl-theme", path: "../jekyll-llnl-theme"
 
 gem "webrick", "~> 1.7"
+gem "ffi", "< 1.17.0"
