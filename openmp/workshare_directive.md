@@ -41,7 +41,7 @@ The construct must not contain any user defined function calls unless the functi
 
 ## Example: WORKSHARE Directive
 
-Simple array and scalar assigments shared by the team of threads. A unit of work would include:
+Simple array and scalar assignments shared by the team of threads. A unit of work would include:
     * Any scalar assignment
     * For array assignment statements, the assignment of each element is a unit of work
 

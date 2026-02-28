@@ -23,7 +23,7 @@ Mutex variables must be declared with type `pthread_mutex_t`, and must be initia
 
     `pthread_mutex_t mymutex = PTHREAD_MUTEX_INITIALIZER;`
 
-2. Dinamically, using `pthread_mutex_init()`. For example:
+2. Dynamically, using `pthread_mutex_init()`. For example:
 
     ```C
     pthread_mutex_t mymutex;

@@ -4,7 +4,7 @@ MPI_File_write_at_all_end(3)         MPI-2        MPI_File_write_at_all_end(3)
 
 NAME
        MPI_File_write_at_all_end  -   Complete  a split collective write using
-       explict offset
+       explicit offset
 
 SYNOPSIS
        int MPI_File_write_at_all_end(MPI_File mpi_fh, void *buf, MPI_Status *status)

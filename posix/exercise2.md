@@ -52,7 +52,7 @@ author: Blaise Barney, Lawrence Livermore National Laboratory
 
 These codes implement a dot product calculation and are designed
         to show the progression of developing a hybrid MPI / Pthreads
-        program from a a serial code. The problem size increases as the
+        program from a serial code. The problem size increases as the
         examples go from serial, to threads/mpi to mpi with threads.
 
 Suggestion: simply making and running this series of codes is

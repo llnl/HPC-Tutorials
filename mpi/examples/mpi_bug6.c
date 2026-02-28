@@ -4,7 +4,7 @@
 *   This program attempts to compare isend/irecv with send/irecv, but there is
 *   a bug. Under AIX it will cause program failure. Intel Linux ignores it.
 *   4 tasks are required.
-* AUTHOER: Blaise Barney 
+* AUTHOR: Blaise Barney 
 * LAST REVISED: 04/13/05
 ******************************************************************************/
 #include "mpi.h"

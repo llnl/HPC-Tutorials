@@ -87,7 +87,7 @@ The buggy behavior will differ for each example. Some hints are provided below.
   <tr>
     <td class="tg-1wig">omp_bug1 <br>omp_bug1fix</td>
     <td class="tg-0lax">Fails compilation. Solution provided - must compile solution file.</td>
-    <td class="tg-hsb7">EXPLANATION: This example attempts to show the use of the combined PARALLEL for-DO directive. It fails because the loop does not come immediately after the directive. Corrections include removing all statements between the PARALLEL for-DO directive and the actual loop. Also, logic is added to preserve the ability to query the thread id and print it from inside the loop. Notice the use of the FIRSTPRIVATE clause to intialize the flag.</td>
+    <td class="tg-hsb7">EXPLANATION: This example attempts to show the use of the combined PARALLEL for-DO directive. It fails because the loop does not come immediately after the directive. Corrections include removing all statements between the PARALLEL for-DO directive and the actual loop. Also, logic is added to preserve the ability to query the thread id and print it from inside the loop. Notice the use of the FIRSTPRIVATE clause to initialize the flag.</td>
   </tr>
   <tr>
     <td class="tg-1wig">omp_bug2</td>
@@ -97,7 +97,7 @@ The buggy behavior will differ for each example. Some hints are provided below.
   <tr>
     <td class="tg-1wig">omp_bug3</td>
     <td class="tg-0lax">Run-time error, hang.</td>
-    <td class="tg-hsb7">EXPLANATION: The run time error is caused by by the OMP BARRIER directive in the PRINT_RESULTS subroutine. By definition, an OMP BARRIER can not be nested outside the static extent of a SECTIONS directive. In this case it is orphaned outside the calling SECTIONS block.</td>
+    <td class="tg-hsb7">EXPLANATION: The run time error is caused by the OMP BARRIER directive in the PRINT_RESULTS subroutine. By definition, an OMP BARRIER can not be nested outside the static extent of a SECTIONS directive. In this case it is orphaned outside the calling SECTIONS block.</td>
   </tr>
   <tr>
     <td class="tg-1wig">omp_bug4 <br>omp_bug4fix</td>

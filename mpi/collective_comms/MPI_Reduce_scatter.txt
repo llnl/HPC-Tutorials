@@ -80,7 +80,7 @@ ERRORS
               or created with MPI_Op_create .
 
        MPI_ERR_BUFFER
-              -  This error class is assoicated with an error code that  indi-
+              -  This error class is associated with an error code that  indi-
               cates  that  two  buffer  arguments  are  aliased ; that is, the
               describe overlapping storage (often  the  exact  same  storage).
               This  is prohibited in MPI (because it is prohibited by the For-

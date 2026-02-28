@@ -34,7 +34,7 @@ OUTPUT PARAMETER
 NOTES
        The MPI standard (1.0 and 1.1) says that
 
-       The jth block of data sent from each proess is received by  every  pro-
+       The jth block of data sent from each process is received by  every  pro-
        cess and placed in the jth block of the buffer recvbuf .
 
 

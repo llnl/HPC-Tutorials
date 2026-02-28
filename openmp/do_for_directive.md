@@ -100,7 +100,7 @@ Program correctness must not depend upon which thread executes a particular iter
 
 It is illegal to branch (goto) out of a loop associated with a DO/for directive.
 
-The chunk size must be specified as a loop invarient integer expression, as there is no synchronization during its evaluation by different threads.
+The chunk size must be specified as a loop invariant integer expression, as there is no synchronization during its evaluation by different threads.
 
 ORDERED, COLLAPSE and SCHEDULE clauses may appear once each.
 

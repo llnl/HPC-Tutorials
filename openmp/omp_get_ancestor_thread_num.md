@@ -2,7 +2,7 @@
 
 ## Purpose:
 
-This routine returns, for a given nested level ofthe current thread, the thread number of the ancestor or the current thread.
+This routine returns, for a given nested level of the current thread, the thread number of the ancestor or the current thread.
 
 ## Format:
 

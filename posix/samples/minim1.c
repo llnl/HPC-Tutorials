@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
 { 
    /*
    We define an array of thread identifiers which are later used as 
-   in the call to to create threads.
+   in the call to create threads.
    */
    pthread_t thrdid[NUMTHDS];
    int i;

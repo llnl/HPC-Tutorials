@@ -40,7 +40,7 @@ This example demonstrates use of the OpenMP loop work-sharing construct. Notice 
 
 3. Review the output. Note that it is piped through the sort utility. This will make it easier to view how loop iterations were actually scheduled across the team of threads.
 
-4. Run the program a couple more times and review the output. What do you see? Typically, dynamic scheduling is not deterministic. Everytime you run the program, different threads can run different chunks of work. It is even possible that a thread might not do any work because another thread is quicker and takes more work. In fact, it might be possible for one thread to do all of the work.
+4. Run the program a couple more times and review the output. What do you see? Typically, dynamic scheduling is not deterministic. Every time you run the program, different threads can run different chunks of work. It is even possible that a thread might not do any work because another thread is quicker and takes more work. In fact, it might be possible for one thread to do all of the work.
 
 5. Edit the `workshare1.*` source file and change the dynamic scheduling to static scheduling.
 

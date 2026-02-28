@@ -2,7 +2,7 @@
 * FILE: mpi_bug7.c
 * DESCRIPTION:
 *   This program hangs.
-* AUTHOER: Blaise Barney
+* AUTHOR: Blaise Barney
 * LAST REVISED: 01/24/09
 ******************************************************************************/
 #include "mpi.h"

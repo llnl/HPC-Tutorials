@@ -34,14 +34,14 @@ NOTES
 
        Currently, MPICH places the same restrictions on MPI_INIT_THREAD as  on
        MPI_INIT (see the MPI_INIT man page).  When MPICH fully supports MPI-2,
-       this restriction will be removed (as requried by the MPI-2 standard).
+       this restriction will be removed (as required by the MPI-2 standard).
 
 
 SIGNALS USED
        The MPI standard requires that all signals  used  be  documented.   The
        MPICH  implementation  itself uses no signals, but some of the software
        that MPICH relies on may use some signals.  The list below  is  partial
-       and  should  be  independantly checked if you (and any package that you
+       and  should  be  independently checked if you (and any package that you
        use) depend on particular signals.
 
 
@@ -86,7 +86,7 @@ ERRORS
        handler is called.  By default, this error handler aborts the MPI  job.
        The  error  handler may be changed with MPI_Errhandler_set ; the prede-
        fined error handler MPI_ERRORS_RETURN may be used to cause error values
-       to  be  returned.  Note that MPI does not guarentee that an MPI program
+       to  be  returned.  Note that MPI does not guarantee that an MPI program
        can continue past an error.
 
        MPI_SUCCESS

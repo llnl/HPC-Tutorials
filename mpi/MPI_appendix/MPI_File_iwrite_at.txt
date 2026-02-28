@@ -3,7 +3,7 @@ MPI_File_iwrite_at(3)                MPI-2               MPI_File_iwrite_at(3)
 
 
 NAME
-       MPI_File_iwrite_at -  Nonblocking write using explict offset
+       MPI_File_iwrite_at -  Nonblocking write using explicit offset
 
 SYNOPSIS
        #ifdef HAVE_MPI_GREQUEST

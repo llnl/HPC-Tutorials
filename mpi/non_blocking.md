@@ -18,7 +18,7 @@ MPI_ISEND (buf,count,datatype,dest,tag,comm,request,ierr)
 
 #### [MPI_Irecv](non_blocking/MPI_Irecv.txt)
 
-Identifies an area in memory to serve as a receive buffer. Processing continues immediately without actually waiting for the message to be received and copied into the the application buffer. A communication request handle is returned for handling the pending message status. The program must use calls to MPI_Wait or MPI_Test to determine when the non-blocking receive operation completes and the requested message is available in the application buffer.
+Identifies an area in memory to serve as a receive buffer. Processing continues immediately without actually waiting for the message to be received and copied into the application buffer. A communication request handle is returned for handling the pending message status. The program must use calls to MPI_Wait or MPI_Test to determine when the non-blocking receive operation completes and the requested message is available in the application buffer.
 
 ```
 MPI_Irecv (&buf,count,datatype,source,tag,comm,&request)

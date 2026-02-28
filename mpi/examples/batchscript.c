@@ -15,7 +15,7 @@
 
 ### Job commands start here 
 ### Display some diagnostic information
-echo '=====================JOB DIAGNOTICS========================'
+echo '=====================JOB DIAGNOSTICS========================'
 date
 echo -n 'This machine is ';hostname
 echo -n 'My jobid is '; echo $SLURM_JOBID

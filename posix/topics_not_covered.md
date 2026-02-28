@@ -18,4 +18,4 @@ Several features of the Pthreads API are not covered in this tutorial. These are
     - Condition Variable Sharing—across processes
     - Thread Cancellation
     - Threads and Signals
-    - Sychronization constructs—barriers and locks
+    - Synchronization constructs—barriers and locks

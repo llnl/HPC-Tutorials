@@ -3,7 +3,7 @@ MPI_File_write_at_all(3)             MPI-2            MPI_File_write_at_all(3)
 
 
 NAME
-       MPI_File_write_at_all -  Collective write using explict offset
+       MPI_File_write_at_all -  Collective write using explicit offset
 
 SYNOPSIS
        int MPI_File_write_at_all(MPI_File mpi_fh, MPI_Offset offset, void *buf,
