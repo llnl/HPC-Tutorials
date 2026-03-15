@@ -55,7 +55,7 @@ All parallelism is explicit: the programmer is responsible for correctly identif
 
 - **Standardization** - MPI is the only message passing library that can be considered "standard" for HPC. It is supported on virtually all HPC platforms. 
 - **Portability** - There should be little or no need to modify your source code when you port your application to a different platform that supports (and is compliant with) the MPI standard.
-- **Performance Opportunities** - Vendor implementations should be able to exploit native hardware features to optimize performance for venodr-specific hardware, such as interconnects, RMA, etc. Any implementation is free to develop optimized algorithms.
+- **Performance Opportunities** - Vendor implementations should be able to exploit native hardware features to optimize performance for vendor-specific hardware, such as interconnects, RMA, etc. Any implementation is free to develop optimized algorithms.
 - **Functionality** - There are over 430 routines defined in MPI-4.
     - NOTE: Most MPI programs can be written using a dozen or less routines
 - **Availability** - A variety of implementations are available, both vendor and public domain.

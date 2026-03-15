@@ -9,7 +9,7 @@ DATA TYPES
        Note  that  the  Fortran types should only be used in Fortran programs,
        and the C types should only be used in C programs.  For example, it  is
        in  error  to use MPI_INT for a Fortran INTEGER.  Datatypes are of type
-       MPI_Datatype in C and of tyep INTEGER in Fortran.
+       MPI_Datatype in C and of type INTEGER in Fortran.
 
 
 C DATATYPES
@@ -155,7 +155,7 @@ COLLECTIVE OPERATIONS
        MPI_MAX
               - return the maximum
        MPI_MIN
-              - return the minumum
+              - return the minimum
        MPI_SUM
               - return the sum
        MPI_PROD

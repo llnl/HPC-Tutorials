@@ -3,7 +3,7 @@ MPI_File_write_at(3)                 MPI-2                MPI_File_write_at(3)
 
 
 NAME
-       MPI_File_write_at -  Write using explict offset
+       MPI_File_write_at -  Write using explicit offset
 
 SYNOPSIS
        int MPI_File_write_at(MPI_File mpi_fh, MPI_Offset offset, void *buf,

@@ -40,7 +40,7 @@ else {
   MPI_Group_incl(orig_group, NPROCS/2, ranks2, &new_group);
   }
 
-/* Create new new communicator and then perform collective communications */
+/* Create new communicator and then perform collective communications */
 MPI_Comm_create(MPI_COMM_WORLD, new_group, &new_comm);
 MPI_Allreduce(&sendbuf, &recvbuf, 1, MPI_INT, MPI_SUM, new_comm);
 

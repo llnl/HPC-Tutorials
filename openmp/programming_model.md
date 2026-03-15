@@ -49,7 +49,7 @@ The number of parallel regions and the threads that comprise them are arbitrary.
 
 ## Compiler Directive Based:
 
-Most OpenMP parallelism is specified through the use of compiler directives which are imbedded in C/C++ or Fortran source code. 
+Most OpenMP parallelism is specified through the use of compiler directives which are embedded in C/C++ or Fortran source code. 
 
 ## Nested Parallelism:
 
@@ -78,15 +78,15 @@ Single-Program-Multiple-Data (SPMD) is underlying programming paradigm - all thr
 
 OpenMP provides a "relaxed-consistency" and "temporary" view of thread memory - threads have equal access to shared memory where variables can be retrieved/stored. Each thread also has its own temporary copies of variables that may be modified independent from variables in memory.
 
-When it is critical that all threads have a consistent view of a shared variable, the programmer (or compiler) is responsible for insuring that the variable is updated by all threads as needed, via an explict action - ie., FLUSH, or implicitly (via compiler recognition of program flow leaving a parallel regions).
+When it is critical that all threads have a consistent view of a shared variable, the programmer (or compiler) is responsible for insuring that the variable is updated by all threads as needed, via an explicit action - ie., FLUSH, or implicitly (via compiler recognition of program flow leaving a parallel regions).
 
 ## OpenMP Programming:
 
-* Method to start up paralell threads
+* Method to start up parallel threads
 * Method to discover how many threads are running
 * Need way to uniquely identify threads
 * Method to join threads for serial execution
 * Method to synchronize threads
-* Ensure consistent view of data items when necesasry
+* Ensure consistent view of data items when necessary
 * Required to check for data dependencies, data conflicts, race conditions, or deadlocks
 

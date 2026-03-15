@@ -13,7 +13,7 @@ By default, the `flux jobs` command only lists your running and pending jobs. Yo
 For older completed jobs, accounting information (job size, duration, user, bank, etc) is available from the Flux accounting database via the `flux account view-jobs` command.
 
 ### Submitting jobs to a non-default bank
-Some LC clusters have Flux's accounting modules enabled. This allows us to use a mutli-factor priority system that includes a hierarchical fairshare algorithm. Users of these systems may have access to multiple banks. One bank will be set as your default bank, but you can choose to submit jobs using an alternate bank by adding `--bank=BANK` to your `flux run|submit|alloc|batch` command.
+Some LC clusters have Flux's accounting modules enabled. This allows us to use a multi-factor priority system that includes a hierarchical fairshare algorithm. Users of these systems may have access to multiple banks. One bank will be set as your default bank, but you can choose to submit jobs using an alternate bank by adding `--bank=BANK` to your `flux run|submit|alloc|batch` command.
 
 ### Viewing job and bank priorities
 You can view the priorities of all jobs in the queue, along with information about dependencies and job urgency (hold, normal, expedite) with `flux jobs -o deps` or, for jobs from all users, `flux jobs -A -o deps`. Note that the highest priority job will also have an estimated start time listed as `eta: TIME` in the `INFO` column of the `flux jobs -A` output.

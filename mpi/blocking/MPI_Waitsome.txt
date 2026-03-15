@@ -34,7 +34,7 @@ OUTPUT PARAMETERS
 
 
 NOTES
-       The  array  of  indicies are in the range 0 to incount - 1 for C and in
+       The  array  of  indices are in the range 0 to incount - 1 for C and in
        the range 1 to incount for Fortran.
 
        Null requests are ignored; if all requests are null, then  the  routine

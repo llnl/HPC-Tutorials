@@ -1,7 +1,7 @@
 # OMP_SET_NUM_THREADS
 
 ## Purpose:
-Sets the number of threads that will be used in the next parallel region. Must be a postive integer.
+Sets the number of threads that will be used in the next parallel region. Must be a positive integer.
 
 ## Format:
 

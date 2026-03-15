@@ -108,7 +108,7 @@ corona178
 ```
 
 ### Submitting jobs to an existing instance with `flux proxy`
-Some user workflows involve getting an allocation (Flux instance) and submitting work to it from outside of that allocation. Flux can accomodate these types of workflows using the `flux proxy` command. You could, for example, create a two node Flux instance with `flux alloc -N2 -n96 -t 1d --bg`, then use a `flux proxy` command to submit work in that instance:
+Some user workflows involve getting an allocation (Flux instance) and submitting work to it from outside of that allocation. Flux can accommodate these types of workflows using the `flux proxy` command. You could, for example, create a two node Flux instance with `flux alloc -N2 -n96 -t 1d --bg`, then use a `flux proxy` command to submit work in that instance:
 ```
 [day36@corona212:~]$ flux jobs
        JOBID USER     NAME       ST NTASKS NNODES  RUNTIME NODELIST

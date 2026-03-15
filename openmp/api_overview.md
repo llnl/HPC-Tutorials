@@ -111,7 +111,7 @@ OpenMP provides several environment variables for controlling the execution of p
 
 These environment variables can be used to control such things as:
 * Setting the number of threads
-* Specifying how loop interations are divided
+* Specifying how loop iterations are divided
 * Binding threads to processors
 * Enabling/disabling nested parallelism; setting the maximum levels of nested parallelism
 * Enabling/disabling dynamic threads

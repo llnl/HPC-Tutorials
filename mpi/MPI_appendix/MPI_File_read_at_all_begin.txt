@@ -4,7 +4,7 @@ MPI_File_read_at_all_begin(3)        MPI-2       MPI_File_read_at_all_begin(3)
 
 NAME
        MPI_File_read_at_all_begin  -   Begin  a  split  collective  read using
-       explict offset
+       explicit offset
 
 SYNOPSIS
        int MPI_File_read_at_all_begin(MPI_File mpi_fh, MPI_Offset offset, void *buf,

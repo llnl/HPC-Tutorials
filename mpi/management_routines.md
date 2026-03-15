@@ -79,7 +79,7 @@ else {
     MPI_Group_incl(orig_group, NPROCS/2, ranks2, &new_group);
     }
 
-// create new new communicator and then perform collective communications
+// create new communicator and then perform collective communications
 MPI_Comm_create(MPI_COMM_WORLD, new_group, &new_comm);
 MPI_Allreduce(&sendbuf, &recvbuf, 1, MPI_INT, MPI_SUM, new_comm);
 
@@ -126,7 +126,7 @@ else
     call MPI_GROUP_INCL(orig_group, NPROCS/2, ranks2, new_group, ierr)
 endif
 
-! create new new communicator and then perform collective communications
+! create new communicator and then perform collective communications
 call MPI_COMM_CREATE(MPI_COMM_WORLD, new_group, new_comm, ierr)
 call MPI_ALLREDUCE(sendbuf, recvbuf, 1, MPI_INTEGER, MPI_SUM, new_comm, ierr)
 

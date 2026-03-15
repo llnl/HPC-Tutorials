@@ -5,7 +5,7 @@
 
 Example [Jekyll] website using GitLab Pages.  View it live at https://pages.gitlab.io/jekyll
 
-[Learn more about GitLab Pages](https://pages.gitlab.io) or read the the [official GitLab Pages documentation](https://docs.gitlab.com/ce/user/project/pages/).
+[Learn more about GitLab Pages](https://pages.gitlab.io) or read the [official GitLab Pages documentation](https://docs.gitlab.com/ce/user/project/pages/).
 
 ---
 
@@ -120,4 +120,4 @@ unless you want to contribute back to the upstream project.
 
 ## Release
 
-This project is relesed as `LLNL-CODE-819660`
+This project is released as `LLNL-CODE-819660`
